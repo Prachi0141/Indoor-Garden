@@ -2,7 +2,7 @@
 Automation in the field of Gardening
 
 # Abstract
-Gardening is a tiresome, more or less a bit time consuming activity, more than urning switches on/off. So with the motive of bringing aotumation in the field of gardening we started with a small indoor garden project.
+Gardening is a tiresome, more or less a bit time consuming activity, more than turning switches on/off. So with the motive of bringing automation in the field of gardening we started with a small indoor garden project.
 
 # Team Members
 <ul>
