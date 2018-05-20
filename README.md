@@ -70,7 +70,7 @@ v
  <ol>
  <li><a href="https://github.com/Prachi0141/Indoor-Garden/blob/master/esp_code.ino"><b>esp_code</b></a> - To be upload in NodeMCU.
   <li><a href="https://github.com/Prachi0141/Indoor-Garden/blob/master/stepper_check.ino"><b>stepper.check</a></b> - To be upload in arduino uno.
-  <ol>
+  </ol>
 
 # Results  
 <ul>
