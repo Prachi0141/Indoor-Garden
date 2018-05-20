@@ -55,6 +55,7 @@ Gardening is a tiresome, more or less a bit time consuming activity, more than t
   <li>Dht11 temperature humidity sensor, moisture sensor were used to update parameters of temperature, humidity, and moisture of the soil.
    <li>An analysis of the data, we got, the was used to control lights, fan, and water pump through the app.
     <li>The water pump was adjusted to the place where the moisture was low with the help of positioning buttons of the app.
+     </ol>
      
  
  # Useful Links
@@ -72,13 +73,22 @@ Gardening is a tiresome, more or less a bit time consuming activity, more than t
   
 
 # Results  
-
-1. The mechanism used in the Bot is very effective in saving water and using it efficiently both position and time-wise.
-3. The energy requirements of the Bot is very low and can be used for long-time with low electricity requirements.
-4. The bot has very low heat radiation and thus can be used with continuous working for long time-span.
-5. It helps us to grow the plant with proper use of water which results in proper growth of the plant.
+<ul>
+ <li>The growth of plant is properly examined with precise information and thus taken care off.
+<li> The mechanism used in the Bot is very effective in saving water and using it efficiently both position and time-wise.
+<li> The energy requirements of the Bot is very low and can be used for long-time with low electricity requirements.
+<li>The bot has very low heat radiation and thus can be used with continuous working for long time-span.
+<li>It helps us to grow the plant with proper use of water which results in proper growth of the plant.
+ </ul>
 
 # Future scope
- 1. This bot has a very good scope in future for people who are not able to give time in gardening but want a patch of land full of   flowers in their backyard. They would require just to spend a few minutes in giving the seeds and water supply to the bot and       rest of the work is automatically done by the bot.
-2. For research purposes this bot can be used by researchers to examine the soil quality and its requirements for plantation accurately and without spending much time as most of the work is done by the bot.
-3. By farmers to have a proper information about the water and pesticide requirements of soil of their farm so that the growth of grains, vegetables etc. is done with precise information and their growth is properly examined and good quality crops are grown on a larger scale without wastage of water and other resources.
+<ul>
+ <li>The app could be further developed :
+  <ol>
+   <li>To provide remote access and notifications asking us to allow giving plant the required nutrients.
+   <li>Further filters could be added depending on the plant type helping us to decide the requirements.
+  </ol>
+ <li>Useful in areas with quite variable conditions where gardening is difficult.
+ <li> This bot has a very good scope in future for people who are not able to give time in gardening but want a patch of land full of   flowers in their backyard. They would require just to spend a few minutes in giving the seeds and water supply to the bot and       rest of the work is automatically done by the bot.
+<li> For research purposes this bot can be used by researchers to examine the soil quality and its requirements for plantation accurately and without spending much time as most of the work is done by the bot.
+<li>By farmers to have a proper information about the water and pesticide requirements of soil of their farm so that the growth of grains, vegetables etc. is done with precise information and their growth is properly examined and good quality crops are grown on a larger scale without wastage of water and other resources.
