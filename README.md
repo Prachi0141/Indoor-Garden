@@ -71,8 +71,8 @@ Gardening is a tiresome, more or less a bit time consuming activity, more than t
 # Instruction on using source code
  Our overall code consists of two files provided above:
  <ol>
- <li><b>main.code</b> - To be upload in arduino.
-  <li><b>stepper.check</b> - To be upload
+ <li><a href="https://github.com/Prachi0141/Indoor-Garden/blob/master/esp_code.ino"><b>main.code</b></a> - To be upload in NodeMCU.
+  <li><b>stepper.check</b> - To be upload in arduino uno.
   
 # Photos
 <div>
