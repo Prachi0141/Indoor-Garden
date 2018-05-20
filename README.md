@@ -6,9 +6,9 @@ Gardening is a tiresome, more or less a bit time consuming activity, more than t
 
 # Team Members
 <ul>
-<li ><a href="https://www.facebook.com/people/Nitin-Yadav/100002014363690">Jeetendra Kumar</a></li>
+<li ><a href="https://www.facebook.com/search/top/?q=jeetendra%20kumar">Jeetendra Kumar</a></li>
 <li><a href="https://www.facebook.com/utkarshdeepak23">Manoj Parihar</a></li>
-<li><a href="https://www.facebook.com/tathagat.chaurasiya">Prachi Agarwal</a></li>
+<li><a href="hhttps://www.facebook.com/prrachiagarwal2230473">Prachi Agarwal</a></li>
 <li><a href="https://www.facebook.com/profile.php?id=100004414771823">Ujjwal Baranwal</a></li>
 </ul>
 
@@ -70,7 +70,7 @@ Gardening is a tiresome, more or less a bit time consuming activity, more than t
  <ol>
  <li><a href="https://github.com/Prachi0141/Indoor-Garden/blob/master/esp_code.ino"><b>esp_code</b></a> - To be upload in NodeMCU.
   <li><a href="https://github.com/Prachi0141/Indoor-Garden/blob/master/stepper_check.ino"><b>stepper.check</a></b> - To be upload in arduino uno.
-  
+  <ol>
 
 # Results  
 <ul>
