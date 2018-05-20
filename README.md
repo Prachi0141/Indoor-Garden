@@ -6,18 +6,18 @@ Gardening is a tiresome, more or less a bit time consuming activity, more than t
 
 # Team Members
 <ul>
-<li ><a href="https://www.facebook.com/search/top/?q=jeetendra%20kumar">Jeetendra Kumar</a></li>
-<li><a href="https://www.facebook.com/utkarshdeepak23">Manoj Parihar</a></li>
-<li><a href="hhttps://www.facebook.com/prrachiagarwal2230473">Prachi Agarwal</a></li>
-<li><a href="https://www.facebook.com/profile.php?id=100004414771823">Ujjwal Baranwal</a></li>
+<li ><a href="https://www.facebook.com/profile.php?id=100017434713564">Jeetendra Kumar</a></li>
+<li><a href="https://www.facebook.com/manoj.parihar.18062533">Manoj Parihar</a></li>
+<li><a href="https://www.facebook.com/prrachiagarwal2230473">Prachi Agarwal</a></li>
+<li><a href="https://www.facebook.com/profile.php?id=100017682631797&ref=br_rs">Ujjwal Baranwal</a></li>
 </ul>
 
 # Mentors
 <ul>
-<li><a href="https://www.facebook.com/profile.php?id=100003364416121">Mohit Gupta</a></li>
-<li><a href="https://www.facebook.com/prasants021">Prashant Shekhar Singh</a></li>
+<li><a href="https://www.facebook.com/kumar.nikhil1198">Nikhil Kumar</a></li>
+<li><a href="https://www.facebook.com/profile.php?id=100009857642161">Aayushi Shrivastava</a></li>
 </ul>
-
+v
 # Pre-Requisites
  
  <b>Hardware:</b>
