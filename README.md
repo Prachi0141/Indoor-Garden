@@ -38,53 +38,42 @@ Gardening is a tiresome, more or less a bit time consuming activity, more than t
 <li>Aluminium Sheet</li>
 <li>Motor Mount</li>
 <li>Some 3d printed Parts</li> 
+ <li>Sensors
+  <ol><li>Light sensors BH1750
+   <li>Moisture sensor
+    <li>Temperature Humidity Sensor DHT11
+  </ol>
 </ol>
 
  <b>Software:</b>
  
 •	<a href ="https://www.arduino.cc/en/main/software">Arduino IDE</a>
+  
+ # Description
+ <ol>
+ <li>We got the real-time status of the indoor plant through the wifi-module esp8266 on an ardroid app which allowed us to remotely take care of our plant.
+  <li>Dht11 temperature humidity sensor, moisture sensor were used to update parameters of temperature, humidity, and moisture of the soil.
+   <li>An analysis of the data, we got, the was used to control lights, fan, and water pump through the app.
+    <li>The water pump was adjusted to the place where the moisture was low with the help of positioning buttons of the app.
+     
+ 
+ # Useful Links
+ <ol>
+ <li>https://create.arduino.cc/projecthub/mega-das/arduino-indoor-garden-5d975c?ref=search&ref_id=indoor&offset=1
+  <li>http://www.instructables.com/id/Indoor-CNC-Garden/
+   </ol>
 
-# D.I.Y. Steps From Scratch
-<ol>
- /*
-<li><p>A wooden base of 104cm diameter is chosen as the base for the whole model. A cavity (diameter) is made so that a rod can be placed to support the moving arm.</p><div><img src="https://github.com/marsiitr/Indoor-Irrigation-System/blob/master/Images/solidworks%20images/1.jpg?raw=true"></div></li>
-<li><p>6 square channels of length 50cm are mounted vertically on the wooden base with the help of L-channel to give them a rigid grip on the base. Every square channel has 3 L-channel attached to it on the base and 2 on its top so that the circular rim is fixed firmly and does not move when the arm rotates on it. This is important for a precise movement.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/2.jpg?raw=true"></div></li>
-<li><p>To give support to the moving arm, a rod of 51.4 cm is fixed on the base with a diameter of 3.17cm.</p><div><img src="https://github.com/marsiitr/Indoor-Irrigation-System/blob/master/Images/solidworks%20images/3.jpg?raw=true"></div></li>
-<li><p>A ball bearing of the same inner diameter as that of the rod is fixed on the rod so that the arm can rotate.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/4.jpg"></div></li>
-<li><p>An aluminum plate of about 1cm thickness is used to make a rectangular plate of about 11cm*30 cm, on which, whole of the arm is to be mounted. This aluminum plate has a circular cavity in which the bearing is fitted.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/5.jpg"></div></li>
-<li><p>The arm has two square channels of 96cm on which a cardboard sheet is mounted to have a platform for rest of the mechanism.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/6.jpg"></div></li>
-<li><p>The rim is placed on the vertical square channels and fixed by screwing it to the 2 L-channels.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/7.jpg"></div></li>
-<li><p>A stepper motor (with a wheel) is fixed at one end of the arm to provide the circular motion to the arm. The motor is mounted on the cardboard sheet with a motor mount.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/8.jpg"></div></li>
-<li><p>A linear slider of 50cm is screwed on the cardboard sheet for the linear movement of the seeding mechanism. At the end of slider, 2 L-channel are fixed with castor wheels attached at their bottom to provide a smooth movement to the slider despite of the weight of vertical mechanism.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/9.jpg"></div></li>
-<li><p>A rack of 40cm is attached on the slider to move it through a stepper motor.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/10.jpg"></div></li>
-<li><p>To support the vertical mechanism, a wooden sheet of 15cm*15 cm is used and is fixed on the 2 L-channels with the help of screws.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/11.jpg"></div></li>
-<li><p>In the vertical mechanism, a slider of 15cm is fixed on the wooden sheet and a rack of 25cm is wooden sheet through a u-shaped motor mount (made of ABS/PPS, for 3D printing you can directly access the solid works file provided)</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/12.1.jpg"><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/12.2.jpg"></div> </li>
-<li><p>For seeding, a conical flask with a cylindrical top, the seed storage, (made of ABS/PPS) is used in which a servo motor is fixed. The servo motor is used to have a periodic opening and closing of a hole in the storage.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/13.jpg"></div></li>
-<li><p>The motor for movement of slider on the horizontal arm is mounted through a motor mount (made of ABS/PPS).</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/14.jpg"></div></li>
-<li><p>At the vacant side of the arm, whole of the electronic system is mounted. To power the model, the adapter wire is passed through the middle rod. </p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/15.jpg"></div></li>
-<li>On the aluminum plate in the middle, opposite to the stepper motor, a solenoidal valve is fixed to control the flow of the water.</li>
-<li><p>Boundary of metal sheet is made to support soil.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/17.1.jpg"></div></li>
-<li>The water is provided through a container at a certain height higher than the arm to the solenoidal valve.</li>
-<li><p>After the whole model is made, the whole weight is about 23-25 kg.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/19.1.jpg"></div></li>
-</ol> */
 
 # Instruction on using source code
  Our overall code consists of two files provided above:
  <ol>
- <li><a href="https://github.com/Prachi0141/Indoor-Garden/blob/master/esp_code.ino"><b>main.code</b></a> - To be upload in NodeMCU.
-  <li><b>stepper.check</b> - To be upload in arduino uno.
+ <li><a href="https://github.com/Prachi0141/Indoor-Garden/blob/master/esp_code.ino"><b>esp_code</b></a> - To be upload in NodeMCU.
+  <li><a href="https://github.com/Prachi0141/Indoor-Garden/blob/master/stepper_check.ino"><b>stepper.check</a></b> - To be upload in arduino uno.
   
-# Photos
-<div>
-<img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/Project%20Images/ori1.jpg"><br/>
-<img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/Project%20Images/ori2.jpg"><br/>
-<img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/Project%20Images/ori3.jpg"><br/>
-<img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/Project%20Images/ori4.jpg">
-</div>
 
 # Results  
+
 1. The mechanism used in the Bot is very effective in saving water and using it efficiently both position and time-wise.
-2. The seed bowing mechanism gives us a platform to use the space on the used patch of land efficiently. It can used to accurately place the seed in the position we want to and that is needed to.
 3. The energy requirements of the Bot is very low and can be used for long-time with low electricity requirements.
 4. The bot has very low heat radiation and thus can be used with continuous working for long time-span.
 5. It helps us to grow the plant with proper use of water which results in proper growth of the plant.
