@@ -46,6 +46,7 @@ Gardening is a tiresome, more or less a bit time consuming activity, more than t
 
 # D.I.Y. Steps From Scratch
 <ol>
+ /*
 <li><p>A wooden base of 104cm diameter is chosen as the base for the whole model. A cavity (diameter) is made so that a rod can be placed to support the moving arm.</p><div><img src="https://github.com/marsiitr/Indoor-Irrigation-System/blob/master/Images/solidworks%20images/1.jpg?raw=true"></div></li>
 <li><p>6 square channels of length 50cm are mounted vertically on the wooden base with the help of L-channel to give them a rigid grip on the base. Every square channel has 3 L-channel attached to it on the base and 2 on its top so that the circular rim is fixed firmly and does not move when the arm rotates on it. This is important for a precise movement.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/2.jpg?raw=true"></div></li>
 <li><p>To give support to the moving arm, a rod of 51.4 cm is fixed on the base with a diameter of 3.17cm.</p><div><img src="https://github.com/marsiitr/Indoor-Irrigation-System/blob/master/Images/solidworks%20images/3.jpg?raw=true"></div></li>
@@ -65,10 +66,14 @@ Gardening is a tiresome, more or less a bit time consuming activity, more than t
 <li><p>Boundary of metal sheet is made to support soil.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/17.1.jpg"></div></li>
 <li>The water is provided through a container at a certain height higher than the arm to the solenoidal valve.</li>
 <li><p>After the whole model is made, the whole weight is about 23-25 kg.</p><div><img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/solidworks%20images/19.1.jpg"></div></li>
-</ol>
+</ol> */
 
 # Instruction on using source code
- Our overall code consists of three sub files. One of them is the <a href="https://github.com/marsiitr/Indoor-Irrigation-System/blob/master/main_code/main_code.ino">main file</a> and others consists of only functions or methods definitons which are called/used in the main file.All the subfiles have been uploaded in github. First, you have to download them all and put them in a folder that has the same name as that of the main file( In our case, "main_code" is the main file).Once you have done this and connected the hardware properly, then you just have to upload the main file to the arduino board and you are ready to go.
+ Our overall code consists of two files provided above:
+ <ol>
+ <li><b>main.code</b> - To be upload in arduino.
+  <li><b>stepper.check</b> - To be upload
+  
 # Photos
 <div>
 <img src="https://raw.githubusercontent.com/marsiitr/Indoor-Irrigation-System/master/Images/Project%20Images/ori1.jpg"><br/>
